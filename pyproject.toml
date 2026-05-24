@@ -38,11 +38,10 @@ dependencies = [
     "rapidfuzz>=3.0",
 ]
 
-# TODO: fill in once the GitHub repo is published.
-# [project.urls]
-# Homepage = "https://github.com/<user>/veracite"
-# Repository = "https://github.com/<user>/veracite"
-# Issues = "https://github.com/<user>/veracite/issues"
+[project.urls]
+Homepage = "https://github.com/tingrui-huang/veracite"
+Repository = "https://github.com/tingrui-huang/veracite"
+Issues = "https://github.com/tingrui-huang/veracite/issues"
 
 [project.scripts]
 veracite = "veracite.__main__:main"

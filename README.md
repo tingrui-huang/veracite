@@ -9,6 +9,12 @@ veracite run references.bib --out ./out
 
 That's it. Open `./out/verification_report.md` to see what's real.
 
+No `.bib` handy? Try the included sample — it has one entry per verdict so you can see what each looks like:
+
+```bash
+veracite run examples/sample.bib --out ./out
+```
+
 ---
 
 ## Why this exists
